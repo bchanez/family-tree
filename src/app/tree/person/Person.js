@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import StringHelper from './../../helper/StringHelper';
+import './Person.css';
 
 class Person extends Component {
   constructor(props) {

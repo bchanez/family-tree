@@ -1,0 +1,12 @@
+.Person {
+  border: 1px solid;
+  border-radius: 18px;
+  padding: 5px;
+  width: min-content;
+}
+
+.Person div {
+  padding: 3px;
+  width: min-content;
+  margin: 0 auto;
+}
