@@ -8,13 +8,9 @@ class Person extends Component {
     const identity = this.props.identity;
 
     this.firstName = identity.firstName === undefined ? '...' : StringHelper.capitalize(identity.firstName);
-
     this.lastName = identity.lastName === undefined ? '...' : StringHelper.capitalize(identity.lastName);
-
     this.birthName = identity.birthName === undefined ? '...' : StringHelper.capitalize(identity.birthName);
-
     this.birthDate = identity.birthDate || '...';
-
     this.deathDate = identity.deathDate || '...';
   }
   render() {

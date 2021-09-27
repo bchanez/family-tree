@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import Person from './tree/person/Person';
+import Family from './tree/family/Family';
 
 class App extends Component {
   render() {
-    const persons = [];
+    const membersFamily = this.props.datas.families[0];
+    const persons = this.props.datas.persons;
 
-    for (const data of this.props.datas) {
-      persons.push(<Person identity={data} />);
-    }
-
-    return <div className="App">{persons}</div>;
+    return (
+      <div className="App">
+        <Family members={membersFamily} persons={persons} />
+      </div>
+    );
   }
 }
 
