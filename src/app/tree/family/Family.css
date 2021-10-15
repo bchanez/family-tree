@@ -1,3 +1,7 @@
+.Family {
+  text-align: center;
+}
+
 .Family .generation {
-  display: flex;
+  display: inline-flex;
 }

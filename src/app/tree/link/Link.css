@@ -1,0 +1,8 @@
+.Link {
+  margin: auto 0;
+}
+
+.Link .type {
+  border-bottom: 4px white solid;
+  width: 35px;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Person from './../person/Person';
+import Link from './../link/Link';
 import './Family.css';
 
 class Family extends Component {
@@ -29,8 +30,7 @@ class Family extends Component {
     return (
       <div className="Family">
         <div class="generation">
-          {wife}
-          {husband}
+          {wife}<Link/>{husband}
         </div>
         <div class="generation">{children}</div>
       </div>
